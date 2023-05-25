@@ -8,7 +8,9 @@ public class MergeIntegers {
             String input2FileName = "C:\\Users\\admin\\IdeaProjects\\Java Input Output\\src\\io\\assignment\\input2.txt";
             String mergedFileName = "merged.txt";
             String commonFileName = "common.txt";
-
+                
+            // once file is ran the common.txt and merged.txt file will be created
+                
             try {
                 // Reads integers from input1.txt and input2.txt
                 int[] input1Integers = readIntegersFromFile(input1FileName);
